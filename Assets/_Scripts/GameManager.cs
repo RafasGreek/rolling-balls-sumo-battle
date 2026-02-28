@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Transform player1Spawn;
     [SerializeField] Transform player2Spawn;
     [Space]
-    [SerializeField] float resetThreshold = -10;
+    [SerializeField] float resetYPosition = -10;
 
     private void Awake()
     {
@@ -29,13 +29,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (player1.position.y < resetThreshold)
+        if (player1.position.y < resetYPosition)
         {
             player2Score++;
             OnPlayerScored?.Invoke(player1Score, player2Score);
             SpawnPlayers();
         }
-        if (player2.position.y < resetThreshold)
+        else if (player2.position.y < resetYPosition)
         {
             player1Score++;
             OnPlayerScored?.Invoke(player1Score, player2Score);
