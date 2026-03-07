@@ -9,6 +9,6 @@ Every time a player falls off the map, the other player gains a point and every 
 The WASD keys control the blue ball and the arrow keys control the red ball.
 
 ### Running the game
-You can find the game on itch.io
+You can play the game through your browser on itch.io
 <br>
 Link to the game - 
