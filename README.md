@@ -11,4 +11,4 @@ The WASD keys control the blue ball and the arrow keys control the red ball.
 ### Running the game
 You can play the game through your browser on itch.io
 <br>
-Link to the game - 
+Link to the game - https://rafailoukos.itch.io/rolling-balls-sumo-battle
